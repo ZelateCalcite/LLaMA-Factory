@@ -1,0 +1,6 @@
+model_name_or_path: /mnt/sda/zzh/Qwen2.5-14B-Instruct
+adapter_name_or_path: saves/qwen-14b-entity-trans/lora/sft
+template: qwen
+finetuning_type: lora
+#infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: false

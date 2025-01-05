@@ -1,0 +1,4 @@
+model_name_or_path: /mnt/sda/zzh/Qwen2.5-14B-Instruct
+template: qwen
+#infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: false
