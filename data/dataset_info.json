@@ -24,6 +24,126 @@
       "tools": "tools"
     }
   },
+  "entity_trans_ar": {
+    "file_name": "entity_trans_ar.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_de": {
+    "file_name": "entity_trans_de.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_es": {
+    "file_name": "entity_trans_es.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_fr": {
+    "file_name": "entity_trans_fr.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_hi": {
+    "file_name": "entity_trans_hi.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_ja": {
+    "file_name": "entity_trans_ja.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_nl": {
+    "file_name": "entity_trans_nl.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "entity_trans_zh": {
+    "file_name": "entity_trans_zh.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "mllm_demo": {
     "file_name": "mllm_demo.json",
     "formatting": "sharegpt",
