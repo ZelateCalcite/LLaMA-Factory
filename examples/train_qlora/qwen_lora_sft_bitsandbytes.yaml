@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /data/zzh/Qwen2.5-14B-Instruct
+model_name_or_path: /mnt/sda/zzh/Qwen2.5-14B-Instruct
 quantization_bit: 4
 trust_remote_code: false
 
@@ -10,7 +10,7 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: entity_trans_de
+dataset: entity_trans_ar
 template: qwen
 cutoff_len: 2048
 #max_samples: 1000
@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/qwen-14b-de-e50/lora/sft
+output_dir: saves/qwen-14b-ar-e5/lora/sft
 logging_steps: 200
 save_steps: 1000
 plot_loss: true
@@ -28,7 +28,7 @@ overwrite_output_dir: true
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 8
 learning_rate: 1.0e-4
-num_train_epochs: 50.0
+num_train_epochs: 5.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true

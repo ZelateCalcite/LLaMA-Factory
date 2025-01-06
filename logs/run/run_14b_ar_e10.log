@@ -1,0 +1,337 @@
+[2025-01-06 17:17:12,933] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[INFO|configuration_utils.py:677] 2025-01-06 17:17:14,228 >> loading configuration file /mnt/sda/zzh/Qwen2.5-14B-Instruct/config.json
+[INFO|configuration_utils.py:746] 2025-01-06 17:17:14,229 >> Model config Qwen2Config {
+  "_name_or_path": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,229 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2475] 2025-01-06 17:17:14,352 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:677] 2025-01-06 17:17:14,353 >> loading configuration file /mnt/sda/zzh/Qwen2.5-14B-Instruct/config.json
+[INFO|configuration_utils.py:746] 2025-01-06 17:17:14,353 >> Model config Qwen2Config {
+  "_name_or_path": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2209] 2025-01-06 17:17:14,353 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2475] 2025-01-06 17:17:14,478 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2025-01-06 17:17:14] llamafactory.data.template:157 >> Add <|im_end|> to stop words.
+[INFO|configuration_utils.py:677] 2025-01-06 17:17:14,488 >> loading configuration file /mnt/sda/zzh/Qwen2.5-14B-Instruct/config.json
+[INFO|configuration_utils.py:746] 2025-01-06 17:17:14,488 >> Model config Qwen2Config {
+  "_name_or_path": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 70,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|2025-01-06 17:17:14] llamafactory.model.patcher:157 >> Using KV cache for faster generation.
+[INFO|modeling_utils.py:3934] 2025-01-06 17:17:14,501 >> loading weights file /mnt/sda/zzh/Qwen2.5-14B-Instruct/model.safetensors.index.json
+[INFO|modeling_utils.py:1670] 2025-01-06 17:17:14,501 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1096] 2025-01-06 17:17:14,502 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.72it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.78it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.69it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:03,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:02,  1.18s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.29s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.00it/s]
+[INFO|modeling_utils.py:4800] 2025-01-06 17:17:22,616 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4808] 2025-01-06 17:17:22,616 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /mnt/sda/zzh/Qwen2.5-14B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1049] 2025-01-06 17:17:22,618 >> loading configuration file /mnt/sda/zzh/Qwen2.5-14B-Instruct/generation_config.json
+[INFO|configuration_utils.py:1096] 2025-01-06 17:17:22,618 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+We've detected an older driver with an RTX 4000 series GPU. These drivers have issues with P2P. This can affect the multi-gpu inference when using accelerate device_map.Please make sure to update your driver to the latest version which resolves this.
+[INFO|2025-01-06 17:17:22] llamafactory.model.model_utils.attention:157 >> Using torch SDPA for faster training and inference.
+[INFO|2025-01-06 17:17:23] llamafactory.model.adapter:157 >> Merged 1 adapter(s).
+[INFO|2025-01-06 17:17:23] llamafactory.model.adapter:157 >> Loaded adapter(s): saves/qwen-14b-ar-e10/lora/sft
+[INFO|2025-01-06 17:17:23] llamafactory.model.loader:157 >> all params: 14,770,033,664
+Visit http://localhost:8000/docs for API document.
+INFO:     Started server process [1847447]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[INFO|2025-01-06 17:27:02] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Northwestern University\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+[INFO|2025-01-06 17:27:04] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Northwestern University\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    },
+    {
+      "role": "assistant",
+      "content": "The given English phrase Northwestern University can be translated into Arabic as جامعة نورث وسترن, and the raw Arabic phrase in the given sentence should be جامعة نورث وسترن."
+    },
+    {
+      "role": "user",
+      "content": "Check the result and make sure each word of the result appears in the given Arabic sentence."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+[INFO|2025-01-06 17:27:05] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Northwestern University\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    },
+    {
+      "role": "assistant",
+      "content": "The given English phrase Northwestern University can be translated into Arabic as جامعة نورث وسترن, and the raw Arabic phrase in the given sentence should be جامعة نورث وسترن."
+    },
+    {
+      "role": "user",
+      "content": "Check the result and make sure each word of the result appears in the given Arabic sentence."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! I have checked the result جامعة نورث وسترن and it really appears in the given sentence."
+    },
+    {
+      "role": "user",
+      "content": "Give me the final result without other words."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+[INFO|2025-01-06 17:27:06] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Chicago\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+[INFO|2025-01-06 17:27:07] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Chicago\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    },
+    {
+      "role": "assistant",
+      "content": "The given English phrase Chicago can be translated into Arabic as جامعة نورث وسترن, and the raw Arabic phrase in the given sentence should be جامعة نورث وسترن."
+    },
+    {
+      "role": "user",
+      "content": "Check the result and make sure each word of the result appears in the given Arabic sentence."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+[INFO|2025-01-06 17:27:08] llamafactory.api.chat:157 >> ==== request ====
+{
+  "model": "/mnt/sda/zzh/Qwen2.5-14B-Instruct",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are a senior Arabic-English translation master, please help me translate some English sentences into Arabic. Note that the correct result should be a phrase that appears in the sentence.\nI will give you an English phrase and a Arabic sentence, where the English phrase is the translation result in the Arabic sentence. I want to find the raw Arabic phrase of the English translation result.\nPlease think step by step."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I can assist with that. Please provide the English phrase and the Arabic sentence it appears in so I can identify the corresponding Arabic phrase for you.\n\nPlease format the input as follows:\n\nEnglish phrase: [insert English phrase]\nArabic sentence: [insert Arabic sentence]\n\nI'll then provide the raw Arabic phrase that corresponds to the English translation result."
+    },
+    {
+      "role": "user",
+      "content": "English phrase: Chicago\nArabic sentence: تعلم في جامعة نورث وسترن في ."
+    },
+    {
+      "role": "assistant",
+      "content": "The given English phrase Chicago can be translated into Arabic as جامعة نورث وسترن, and the raw Arabic phrase in the given sentence should be جامعة نورث وسترن."
+    },
+    {
+      "role": "user",
+      "content": "Check the result and make sure each word of the result appears in the given Arabic sentence."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! I have checked the result جامعة نورث وسترن and it really appears in the given sentence."
+    },
+    {
+      "role": "user",
+      "content": "Give me the final result without other words."
+    }
+  ]
+}
+INFO:     127.0.0.1:56892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1847447]
